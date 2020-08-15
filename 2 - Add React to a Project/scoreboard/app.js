@@ -1,4 +1,6 @@
 // A JavaScript Library for building User Interfaces
+// React creates Objects that desribe DOM nodes but not the real DOM elements
+// ReactDOM.render is the kewyword for rendering the content
 
 
 const title = React.createElement(
@@ -34,3 +36,13 @@ ReactDOM.render(
     document.getElementById('root')
 
 );
+
+
+/*
+JSX is an extension to the JavaScript language that uses a markup-like syntax to create React elements. 
+Most React developers write their UI using JSX because it resembles writing HTML.
+*/
+
+const title = 'My First React Element!';
+
+const desc = 'I just learned how to create a React node and render it into the DOM';
