@@ -2,7 +2,7 @@
 // React creates Objects that desribe DOM nodes but not the real DOM elements
 // ReactDOM.render is the kewyword for rendering the content
 
-
+/*
 const title = React.createElement(
     'h1', { id: 'main-title', title: 'This is a title.' },
     'My First React Element!'
@@ -17,6 +17,13 @@ const desc = React.createElement(
     null, // The props Argument similar to an Object
     'I just learned how to create a React node and render it' // The third argument
 );
+*/
+
+// JSX way of creating the elements like normally and then the BABEL compiler is going to convert it into React way of code syntax
+const title = 'My First React Element!';
+
+const desc = 'I just learned how to create a React node and render it into the DOM';
+
 
 
 const header = React.createElement(
@@ -42,7 +49,3 @@ ReactDOM.render(
 JSX is an extension to the JavaScript language that uses a markup-like syntax to create React elements. 
 Most React developers write their UI using JSX because it resembles writing HTML.
 */
-
-const title = 'My First React Element!';
-
-const desc = 'I just learned how to create a React node and render it into the DOM';
