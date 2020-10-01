@@ -24,6 +24,19 @@ const title = 'My First React Element!';
 
 const desc = 'I just learned how to create a React node and render it into the DOM';
 
+const myTitleID = "main-title";
+
+
+
+const header = React.createElement( 
+    <header>  
+    <h1>'My First React Element!'</h1>
+     <h1>'I just learned how to create a React node and render it into the DOM'</h1>
+    
+    </header>
+);
+
+
 
 
 const header = React.createElement(
@@ -32,6 +45,26 @@ const header = React.createElement(
     title,
     desc
 );
+
+/* 
+
+<p>
+</p>
+
+const header(
+
+    <header>
+
+
+    <h1> </h1>
+
+
+    </header>
+);
+
+*/
+
+
 
 // React never touches the Real DOM, it just manages what gets rendered and what will be updated
 // For rendering we have to do
@@ -49,3 +82,7 @@ ReactDOM.render(
 JSX is an extension to the JavaScript language that uses a markup-like syntax to create React elements. 
 Most React developers write their UI using JSX because it resembles writing HTML.
 */
+
+
+
+
